@@ -3,6 +3,10 @@ package com.xplor.android.challenge.network
 import okhttp3.Interceptor
 import okhttp3.Response
 
+/* todo Created by Tejas Dani on 23/Aug/2023
+    for custom error interceptor
+*/
+
 class CustomErrorInterceptor:Interceptor {
 
     override fun intercept(chain: Interceptor.Chain): Response {
